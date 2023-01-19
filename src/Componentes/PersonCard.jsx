@@ -5,7 +5,7 @@ class PersonCard extends Component {
         this.state = { edad: props.edad };
     }
     sumar = ()=> {
-        this.setState({edad: +this.props.edad +1});
+        this.setState({edad: +this.state.edad +1});
     }        
     
     render () {
